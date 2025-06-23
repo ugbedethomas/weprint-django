@@ -1,0 +1,11 @@
+# Ignore virtual environments
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore media files
+/media/
