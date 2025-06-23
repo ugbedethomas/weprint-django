@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+ENV/
+
+# Ignore database and media
+*.sqlite3
+/media/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode and IDE files
+.vscode/
+.idea/
