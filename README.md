@@ -1,67 +1,81 @@
-# weprint-django
-# 🖨️ WePrint Django E-Commerce
+# 🖨️ WePrint - Django E-commerce Printing Platform
 
-**WePrint** is a custom-built online printing store made with Django. It allows users to view and order printed products like business cards, flyers, and more — all through a smooth interface.
-
----
-
-## 🔧 Features
-
-- ✅ User login & admin dashboard
-- ✅ Product listing with image and price
-- ✅ Order form and success page
-- ✅ Image upload support (media folder)
-- ✅ Admin can manage products (add/edit/delete)
+**WePrint** is an online printing shop built with Django. It allows customers to browse print products (like business cards, flyers, posters), view product details, and place orders seamlessly.
 
 ---
 
-## 💻 Tech Stack
+## 🚀 Features
 
-- Python 3 & Django 5
-- SQLite3 (default DB)
-- HTML5 + CSS3 + Bootstrap
-- Git & GitHub for version control
+- 🛍️ Product listing with images and prices  
+- 🔍 Product detail page with order form  
+- 🖼️ Media support (uploads and displays product images)  
+- 🛠️ Admin panel to manage products and orders  
+- 💽 SQLite database (easy to set up)  
+- 🌐 Responsive frontend templates (customizable)
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
-(Add screenshots in `/screenshots/` folder or upload in GitHub UI)
-
-![Homepage](screenshots/homepage.png)
-![Product Detail](screenshots/product-detail.png)
+### 🔐 Admin Panel
 ![Admin Panel](screenshots/admin-panel.png)
 
+### 🏠 Homepage
+![Homepage](screenshots/homepage.png)
+
+### 📦 Product Detail Page
+![Product Detail](screenshots/product-detail.png)
+
 ---
 
-## 🚀 How to Run the Project Locally
+## 🧰 Tech Stack
 
+- Python 3.12  
+- Django 5.2.3  
+- HTML / CSS (with Bootstrap-ready layout)  
+- SQLite3  
+- Pillow for image handling
 
-# 1. Clone the project
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
 git clone https://github.com/ugbedethomas/weprint-django.git
-
-# 2. Move into project directory
 cd weprint-django
 
-# 3. Create and activate virtual environment
+# Create virtual environment
 python -m venv venv
-venv\Scripts\activate
+source venv/Scripts/activate  # On Windows
+# or
+source venv/bin/activate  # On macOS/Linux
 
-# 4. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 5. Run the development server
+# Run migrations
+python manage.py migrate
+
+# Create superuser
+python manage.py createsuperuser
+
+# Start server
 python manage.py runserver
 
-👤 Author
+🧠 Default site: http://127.0.0.1:8000
+
+🙋🏽‍♂️ Author
 Augustine Ugbede Thomas
-Founder, Stinet Digital
-🔗 GitHub
-📍 Abuja, Nigeria
-📧 Email: info@stinetdigital.com.ng
+🎯 GitHub
+📍 Nigeria 🇳🇬 | Tech founder @ Stinet Digital
 
-📝 License
-This project is licensed under the MIT License — feel free to use, modify, or build on it for learning or client demos.
-However, reselling or republishing the project as-is is not allowed without permission.
+📄 License
+This project is licensed under the MIT License.
+Feel free to use, fork, modify, and share.
 
+❤️ Support & Contributions
+If you like this project, kindly ⭐ the repo. Contributions welcome — pull requests are open!
+
+Built with 🔥 in Nigeria by a dreamer who executes.
 
