@@ -30,13 +30,13 @@
 
 ![Homepage](screenshots/homepage.png)
 ![Product Detail](screenshots/product-detail.png)
-![Admin Panel](screenshots/admin.png)
+![Admin Panel](screenshots/admin-panel.png)
 
 ---
 
 ## 🚀 How to Run the Project Locally
 
-```bash
+
 # 1. Clone the project
 git clone https://github.com/ugbedethomas/weprint-django.git
 
