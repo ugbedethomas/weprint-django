@@ -1,0 +1,7 @@
+mkdir weprint-portfolio
+cd weprint-portfolio
+python -m venv venv
+venv\Scripts\activate   # or source venv/bin/activate
+pip install django
+django-admin startproject weprint .
+python manage.py startapp shop
