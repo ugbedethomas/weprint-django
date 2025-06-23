@@ -20,11 +20,15 @@ class Product(models.Model):
 
 class Order(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    name = models.CharField(max_length=100)
-    email = models.EmailField()
-    quantity = models.PositiveIntegerField(default=1)
-    design_file = models.FileField(upload_to='uploads/')
-    ordered_at = models.DateTimeField(auto_now_add=True)
+    customer_name = models.CharField(max_length=100)
+    customer_phone = models.CharField(max_length=20)
+    customer_address = models.TextField()
+    quantity = models.IntegerField(default=1)
+    from django.utils import timezone
+
+    created_at = models.DateTimeField(default=timezone.now)
+
 
     def __str__(self):
-        return f"Order #{self.id} - {self.product.name}"
+        return f"{self.customer_name} - {self.product.name}"
+
