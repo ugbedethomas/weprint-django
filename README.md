@@ -58,7 +58,7 @@ Augustine Ugbede Thomas
 Founder, Stinet Digital
 🔗 GitHub
 📍 Abuja, Nigeria
-📧 Email: stinetdigital@gmail.com
+📧 Email: info@stinetdigital.com.ng
 
 📝 License
 This project is licensed under the MIT License — feel free to use, modify, or build on it for learning or client demos.
